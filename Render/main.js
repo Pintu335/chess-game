@@ -107,10 +107,10 @@ function initGameRender(data) {
       }
 
       // render white pawn
-      // if (square.id[1] == 2) {
-      //   square.piece = piece.whitePawn(square.id);
-      //   globalPiece.white_pawn = square.piece
-      // }
+      if (square.id[1] == 2) {
+        square.piece = piece.whitePawn(square.id);
+        globalPiece.white_pawn = square.piece
+      }
       // render white queen
       if (square.id == "d1") {
         square.piece = piece.whiteQueen(square.id);
