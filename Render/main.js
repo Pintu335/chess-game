@@ -118,7 +118,11 @@ function initGameRender(data) {
       }
 
       // render white king
-   
+      if (square.id == "e1") {
+        square.piece = piece.whiteKing(square.id);
+        globalPiece.white_king = square.piece;
+      }
+      
 
       // render white rook
       if (square.id == "h1" || square.id == "a1") {
