@@ -96,10 +96,10 @@ function initGameRender(data) {
         }
       }
       // render black knight
-      if (square.id == "d8") {
-        square.piece = piece.blackQueen(square.id);
-        globalPiece.black_queen = square.piece
-      }
+      // if (square.id == "d8") {
+      //   square.piece = piece.blackQueen(square.id);
+      //   globalPiece.black_queen = square.piece
+      // }
       // render black knight
       if (square.id == "e8") {
         square.piece = piece.blackKing(square.id);
