@@ -26,11 +26,11 @@ function globalStateRender() {
 }
 
 
-// function selfHighlight(piece) {
-//   document
-//     .getElementById(piece.current_position)
-//     .classList.add("highlightYellow");
-// }
+function selfHighlight(piece) {
+  document
+    .getElementById(piece.current_position)
+    .classList.add("highlightYellow");
+}
 
 // use when you want to render pieces on board
 function pieceRender(data) {
