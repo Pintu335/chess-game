@@ -9,9 +9,9 @@ class HypotheticalBoard {
         console.log(this);
     }
 
-    // move(){
+    move(){
         
-    // }
+    }
 }
 
 export default HypotheticalBoard;
