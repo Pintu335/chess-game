@@ -2,7 +2,7 @@ import * as piece from "../Data/pieces.js";
 import { ROOT_DIV } from "../Helper/constants.js";
 import { globalState } from "../index.js";
 
-// const globalPiece = new Object();
+const globalPiece = new Object();
 
 // function globalStateRender (this function is usefull to render pieces from globalStateData) => use when updating globalState
 function globalStateRender() {
@@ -26,11 +26,11 @@ function globalStateRender() {
 }
 
 
-function selfHighlight(piece) {
-  document
-    .getElementById(piece.current_position)
-    .classList.add("highlightYellow");
-}
+// function selfHighlight(piece) {
+//   document
+//     .getElementById(piece.current_position)
+//     .classList.add("highlightYellow");
+// }
 
 // use when you want to render pieces on board
 function pieceRender(data) {
