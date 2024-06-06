@@ -5,8 +5,8 @@ class HypotheticalBoard {
         if(!data){
             throw new Error('Please Provide Some Data');
         }
-        // this.state = JSON.parse(JSON.stringify(data));
-        // console.log(this);
+        this.state = JSON.parse(JSON.stringify(data));
+        console.log(this);
     }
 
     // move(){
