@@ -122,7 +122,7 @@ function initGameRender(data) {
         square.piece = piece.whiteKing(square.id);
         globalPiece.white_king = square.piece;
       }
-      
+
 
       // render white rook
       if (square.id == "h1" || square.id == "a1") {
@@ -135,15 +135,7 @@ function initGameRender(data) {
       }
 
       // render black knight
-      if (square.id == "b1" || square.id == "g1") {
-        square.piece = piece.whiteKnight(square.id);
-        if(globalPiece.white_knight_1) {
-          globalPiece.white_knight_2 = square.piece
-        } else {
-          globalPiece.white_knight_1 = square.piece
-        }
-      }
-
+      
       // render black bishop
       if (square.id == "c1" || square.id == "f1") {
         square.piece = piece.whiteBishop(square.id);
