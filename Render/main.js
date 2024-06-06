@@ -68,14 +68,14 @@ function initGameRender(data) {
       }
 
       // render black rook
-      // if (square.id == "h8" || square.id == "a8") {
-      //   square.piece = piece.blackRook(square.id);
-      //   if(globalPiece.black_rook_1) {
-      //     globalPiece.black_rook_2 = square.piece
-      //   } else {
-      //     globalPiece.black_rook_1 = square.piece
-      //   }
-      // }
+      if (square.id == "h8" || square.id == "a8") {
+        square.piece = piece.blackRook(square.id);
+        if(globalPiece.black_rook_1) {
+          globalPiece.black_rook_2 = square.piece
+        } else {
+          globalPiece.black_rook_1 = square.piece
+        }
+      }
 
       // render black knight
       if (square.id == "b8" || square.id == "g8") {
