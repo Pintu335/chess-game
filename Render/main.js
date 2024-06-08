@@ -188,11 +188,11 @@ function clearHightlight() {
   });
 }
 
-export {
-  initGameRender,
-  renderHighlight,
-  clearHightlight,
-  selfHighlight,
-  globalStateRender,
-  globalPiece
-};
+// export {
+//   initGameRender,
+//   renderHighlight,
+//   clearHightlight,
+//   selfHighlight,
+//   globalStateRender,
+//   globalPiece
+// };
