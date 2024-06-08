@@ -13,10 +13,10 @@ body {
   display: flex;
 }
 
-/* .square {
+.square {
   width: 75px;
   height: 75px;
-} */
+} 
 
 .white {
   background-color: #eeeed2;
